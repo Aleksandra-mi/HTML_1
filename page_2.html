@@ -1,0 +1,569 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Список</title>
+ </head>
+ <body bgcolor="#E6E6FA">
+   <h1 align="center">Список кинокомпаний</h1>
+   <hr>
+   <a href="lab2_html_Mishchenko.html">
+      Назад на главную страницу
+   </a>
+   <p>
+    <details>
+      <summary>Сортировка</summary>
+      <p>
+        1: 
+        <select name="s1">
+          <option value="0">Нет</option>
+          <option value="1">Название</option>
+          <option value="2">Страна</option>
+          <option value="3">Основатель</option>
+          <option value="4">Год основания</option>
+        </select>
+        <input type="radio" name="v1" value="up1"> По возрастанию 
+        <input type="radio" name="v1" value="down1"> По убыванию 
+      </p>
+      <p>
+        2: 
+        <select name="s2">
+          <option value="0">Нет</option>
+          <option value="1">Название</option>
+          <option value="2">Страна</option>
+          <option value="3">Основатель</option>
+          <option value="4">Год основания</option>
+        </select>
+        <input type="radio" name="v2" value="up2"> По возрастанию 
+        <input type="radio" name="v2" value="down2"> По убыванию 
+      </p>
+      <p>
+        3: 
+        <select name="s3">
+          <option value="0">Нет</option>
+          <option value="1">Название</option>
+          <option value="2">Страна</option>
+          <option value="3">Основатель</option>
+          <option value="4">Год основания</option>
+        </select>
+        <input type="radio" name="v3" value="up3"> По возрастанию 
+        <input type="radio" name="v3" value="down3"> По убыванию 
+      </p>
+      <p>
+        <input type="button" value="Применить">
+      </p>
+     </details>
+     <details>
+      <summary>Фильтр</summary>
+      <p>
+        <label>Название: 
+          <input type="text" name="name" id="n">
+        </label>      
+      </p>
+      <p>
+        <label>Страна: 
+          <input type="text" name="country" id="c">
+        </label>      
+      </p>
+      <p>
+        <label>Основатель: 
+          <input type="text" name="person" id="p">
+        </label>      
+      </p>
+      <p>
+        <label>Год основания: 
+          <input type="number" min="0" max="2022">
+        </label>      
+      </p>
+      <p>
+        <input type="button" value="Применить">
+      </p>
+     </details>
+     <details>
+      <summary>График</summary>
+      <table border="0">
+        <tr>
+          <td>По горизонтали: </td>
+          <td>По вертикали: </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="n1" value="up3"> Страна <br>
+            <input type="radio" name="n1" value="down3"> Год основания
+          </td>
+          <td>
+            <input type="radio" name="n2" value="up3"> Число проектов <br>
+          </td>
+        </tr>
+
+      </table>
+      <p>
+        <input type="button" value="Построить">
+      </p>
+     </details>  
+   </p>
+   <p>
+    <table border="1" align="justify" cellspacing="0" cellpadding="10">
+      <tr>
+        <td>№</td>
+        <td>Название</td>
+        <td>Страна</td>
+        <td>Основатель</td>
+        <td>Год основания</td>
+        <td>Количество проектов</td>
+        <td>Самый популярный проект</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>20th Century Fox</td>
+        <td>США</td>
+        <td>Уильям Фокс</td>
+        <td>1935</td>
+        <td>1566</td>
+        <td>Звездные войны</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>A24</td>
+        <td>США</td>
+        <td>Дэниэл Кац</td>
+        <td>2012</td>
+        <td>81</td>
+        <td>Лобстер</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Alcon Entertainment</td>
+        <td>США</td>
+        <td>Бродерик Джонсон</td>
+        <td>1997</td>
+        <td>67</td>
+        <td>Невидимая сторона</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Amblin Entertainment</td>
+        <td>США</td>
+        <td>Стивен Спилберг</td>
+        <td>1981</td>
+        <td>178</td>
+        <td>На западном фронте без перемен</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Bad Robot Productions</td>
+        <td>США</td>
+        <td>Джей Джей Абрамс</td>
+        <td>1998</td>
+        <td>84</td>
+        <td>Остаться в живых</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>BBC Films</td>
+        <td>Великобритания</td>
+        <td>Дэвид М Томпсон</td>
+        <td>1990</td>
+        <td>363</td>
+        <td>Мальчик в полосатой пижаме</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+   </p>
+
+ </body>
+</html>
